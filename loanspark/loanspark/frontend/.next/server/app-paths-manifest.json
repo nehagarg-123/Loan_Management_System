@@ -1,0 +1,8 @@
+{
+  "/dashboard/sanction/page": "app/dashboard/sanction/page.js",
+  "/dashboard/collection/page": "app/dashboard/collection/page.js",
+  "/auth/login/page": "app/auth/login/page.js",
+  "/dashboard/disbursement/page": "app/dashboard/disbursement/page.js",
+  "/auth/register/page": "app/auth/register/page.js",
+  "/borrower/apply/page": "app/borrower/apply/page.js"
+}

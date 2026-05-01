@@ -56,7 +56,15 @@ loanspark/
 ### 2. Backend Setup
 ```bash
 cd backend
-cp .env.example .env       # edit MONGODB_URI and JWT_SECRET
+cp .env.example .env
+    #PORT=5000
+    # edit MONGODB_URI and JWT_SECRET
+    # JWT_EXPIRES_IN=7d
+    # NODE_ENV=development
+    # FRONTEND_URL=http://localhost:3000
+    # MAX_FILE_SIZE=5242880
+    # UPLOAD_DIR=uploads
+
 npm install
 npm run seed               # creates all 6 demo accounts
 npm run dev                # starts on http://localhost:5000
